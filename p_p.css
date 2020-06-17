@@ -1,0 +1,223 @@
+header{
+    color:rgb(4, 4, 58);
+    background-color:rgb(212, 248, 50);
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+body{
+    background-color:black;
+}
+   @media (max-width: 600px) {
+     body {
+      background-color: lightblue;
+    }
+}
+  
+  
+.row1{
+    display: flex;
+    
+    
+}
+.column1{
+    float: left;
+    flex: 50%;
+    background-color: rgb(183, 226, 226);
+    height: auto;
+}
+.photo1{
+    width: 100%;
+}
+.photo2{
+    width: 10%;
+    margin-left: 250px;
+}
+.row2{
+    display: flex;
+}
+.column2{
+    float: left;
+    flex: 50%;
+    background-color: rgb(211, 245, 160);
+    height: auto;
+}
+.photo3{
+    width: 100%;
+    height: auto;
+}
+.photo4{
+    width: 13%;
+    margin-left: 240px;
+
+}
+.row3{
+    display: flex;
+}
+.column3{
+    flex: 50%;
+    background-color: rgb(252, 231, 112);
+
+}
+.photo5{
+    width: 100%;
+}
+.photo6{
+    margin-left: 220px;
+    width: 20%;
+}
+.photo7{
+    width: 100%;
+}
+.photo8{
+    width: 22%;
+    margin-left: 224px;
+}
+.photo9{
+    width: 100%;
+}
+.photo10{
+    width: 10%;
+    margin-left: 244px;
+}
+.row4{
+    display: flex;
+}
+.column4{
+    flex: 50%;
+    background-color:rgb(199, 175, 199);
+
+}
+.row5{
+    display: flex;
+}
+.column5{
+    flex: 50%;
+    background-color: rgb(252, 183, 118);
+}
+.buy-it1{
+    text-align: center;
+}
+.buy-it2{
+    text-align: center;
+    margin-bottom: 0px;
+}
+.buy-it3{
+    text-align: center;
+}
+.buy-it4{
+    text-align: center;
+}
+.buy-it5{
+    text-align: center;
+}
+
+#header-img{
+    width: 20%;
+    
+}
+ul{
+    text-align: end;
+    
+    
+}
+li{
+    list-style: none;
+    display: inline;
+    font-size: 25px;
+    
+}
+#contact{
+    color: yellow;
+    background-color:brown;
+}
+section{
+    color: yellow;
+    background-color: rgb(74, 74, 110);
+}
+#about-us{
+    color: red;
+
+}
+@media only screen and (max-width: 600px) {
+    #about-us{
+      color: blueviolet;
+    }
+}
+h2{
+    color: chartreuse;
+}
+table{
+    color: pink;
+    width: 100%;
+    padding: 5px;
+    
+}
+h4{
+    color: rgb(212, 248, 50);
+}
+th{
+    font-size: 28px;
+}
+.kebab{
+    background-color: darkblue;
+}
+#free-kebab{
+    color: yellow;
+}
+.advert{
+    color: red;
+    text-align: center;
+}
+th{
+    color: red;
+}
+#nav-bar{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    right: 15px;
+   
+}
+p {
+    font-size: 25px;
+  }
+  
+  /* Add media query below */
+  @media (max-width: 1200px){ 
+    p {
+      font-size: 10px;
+    }
+  }
+  .ppp{
+      font-size: 30px;
+  }
+  
+    @media (max-width:1100px){
+       .ppp{
+           font-size: 20px;
+       }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
